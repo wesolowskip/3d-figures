@@ -16,6 +16,7 @@ Potok renderowania wykonywany jest na CPU.
 Rozwiązanie zostało wykonane w MS VS 2017 wykorzystując Windows Forms.
 
 Rozwiązanie w katalogu *Textures* zawiera przykładowe tekstury ze strony <https://freepbr.com/> wraz z odpowiadającymi im mapami normalnych, które można nałożyć na wybrane figury.
+Klasy `LockBitmap` oraz `DirectBitmap` nie są mojego autorstwa, przy ich implementacjach znajdują się odwołania do źródeł.
 
 ## Przykładowe zrzuty ekranu z aplikacji:
 
