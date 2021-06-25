@@ -29,11 +29,11 @@ namespace GK_Projekt4
         public Color Id { get => _id; set { _id = value; UpdateNormalizedId(); } }
         [Description("Kolor światła odbić lustrzanych")]
         public Color Is { get => _is; set { _is = value; UpdateNormalizedIs(); } }
-        [Description("Współczynnik w atenuacji")]
+        [Description("Współczynnik w atenuacji danej wzorem 1/(Ac + dist * Al + dist^2 * Aq)")]
         public double Ac { get; set; } = 1d;
-        [Description("Współczynnik w atenuacji")]
+        [Description("Współczynnik w atenuacji danej wzorem 1/(Ac + dist * Al + dist^2 * Aq)")]
         public double Aq { get; set; } = 0.000001d;
-        [Description("Współczynnik w atenuacji")]
+        [Description("Współczynnik w atenuacji danej wzorem 1/(Ac + dist * Al + dist^2 * Aq)")]
         public double Al { get; set; } = 0.000009d;
         [Description("Współrzędna x światła")]
         public int X { get; set; }
