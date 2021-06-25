@@ -7,7 +7,7 @@ Celem projektu było zaimplementowanie prostego edytora figur 3D, w szczególno�
 - algorytm Sutherlanda-Hodgmana,
 - model oświetlenia Phonga z osłabieniem światła wraz z odległością,
 - cieniowanie Phonga,
-- teksturowanie,
+- teksturowanie i mapowanie normalnych,
 - buforowanie głębi,
 - obcinanie ścian tylnych,
 - korekcja perspektywy.
