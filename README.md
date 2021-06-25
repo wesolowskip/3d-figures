@@ -15,8 +15,8 @@ Celem projektu było zaimplementowanie prostego edytora figur 3D, w szczególno�
 Potok renderowania wykonywany jest na CPU.
 Rozwiązanie zostało wykonane w MS VS 2017 wykorzystując Windows Forms.
 
-Rozwiązanie w katalogu *Textures* zawiera przykładowe tekstury ze strony <https://freepbr.com/> wraz z odpowiadającymi im mapami normalnych, które można nałożyć na wybrane figury.
-Klasy `LockBitmap` oraz `DirectBitmap` nie są mojego autorstwa, przy ich implementacjach znajdują się odwołania do źródeł.
+Rozwiązanie w katalogu [Textures](GK_Projekt4/Textures) zawiera przykładowe tekstury ze strony <https://freepbr.com/> wraz z odpowiadającymi im mapami normalnych, które można nałożyć na wybrane figury.
+Klasy [`LockBitmap`](GK_Projekt4/LockBitmap.cs) oraz [`DirectBitmap`](GK_Projekt4/DirectBitmap.cs) nie są mojego autorstwa, przy ich implementacjach znajdują się odwołania do źródeł.
 
 ## Przykładowe zrzuty ekranu z aplikacji:
 
@@ -36,7 +36,7 @@ Dodam tutaj jeszcze, że edycję właściwości obiektów realizuję w PropertyG
 W takiej sytuacji, należy albo wejść w tryb 1FPS albo całkowicie wyłączyć animację (za pomocą odpowiednich radiobuttonów w lewym dolnym rogu), by zmniejszyć obciążenie.
 Następnie można powrócić do normalnego trybu odświeżania sceny.
 
-W katalogu *Scenes* znajduje się zapisana przykładowa scena, którą można wczytać.
+W katalogu [Scenes](GK_Projekt4/Scenes) znajduje się zapisana przykładowa scena, którą można wczytać.
 
 #### Funkcjonalności:
 
@@ -52,7 +52,7 @@ W katalogu *Scenes* znajduje się zapisana przykładowa scena, którą można wc
 
 ## Opis implementacji
 
-Bardziej szczegółowy opis zagadnienień dotyczących implementacji można znaleźć w pliku *Opis.pdf*.
+Bardziej szczegółowy opis zagadnienień dotyczących implementacji można znaleźć w pliku [Opis.pdf](Opis.pdf).
 
 ## TODO
 
