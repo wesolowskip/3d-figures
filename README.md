@@ -1,7 +1,9 @@
 # 3d-figures
 Jeden z projektów studenckich na przedmiocie "Grafika komputerowa 1" na wydziale MiNI PW.
 
-Celem projektu było zaimplementowanie prostego edytora figur 3D, w szczególności algorytmów związanych z przetwarzaniem grafiki 3D:
+Celem projektu było zaimplementowanie prostego edytora figur 3D bez wykorzystania zewnętrznych bibliotek graficznych.
+W szczególności, należało zaimplementować:
+
 - algorytm Bresenhama,
 - wypełnianie algorytmem scan-linii zoptymalizowanym dla trójkątów,
 - algorytm Sutherlanda-Hodgmana,
@@ -12,7 +14,7 @@ Celem projektu było zaimplementowanie prostego edytora figur 3D, w szczególno�
 - obcinanie ścian tylnych,
 - korekcja perspektywy.
 
-Potok renderowania wykonywany jest na CPU.
+Potok renderowania wykonywany jest **sekwencyjnie na CPU**.
 Rozwiązanie zostało wykonane w MS VS 2017 wykorzystując Windows Forms.
 
 Rozwiązanie w katalogu [Textures](GK_Projekt4/Textures) zawiera przykładowe tekstury ze strony <https://freepbr.com/> wraz z odpowiadającymi im mapami normalnych, które można nałożyć na wybrane figury.
